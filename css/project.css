@@ -1,0 +1,783 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body .header{
+    width: 100%;
+    height: 650px;
+}
+
+.header{
+    height: 100vh;
+    background: url("../img/b2.jpg");
+    padding: 15px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.header h1{
+    font-family: corbel;
+    color: #d73739;
+    float: left;
+    font-size: 45px;
+    width: 75%;
+    padding: 0px 30px;
+}
+
+.nav{
+    width: 25%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+}
+
+.nav li{
+    list-style: none;
+    float:  left;
+    padding-left: 15px;
+   
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: corbel;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.textRider{
+    width: 40%;
+    height: auto;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    padding: 10px;
+}
+
+.textRider h2{
+    color: white;
+    font-family: arial;
+    font-size: 50px;
+    
+}
+
+.textRider p{
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+
+.textRider button{
+    width: 20%;
+    height: auto;
+    font-family: arial;
+    background: #d73739;
+    border-radius: 4px;
+    border: 10%;
+    color: white;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+}
+
+.subHeader{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 30px 50px;
+    overflow: hidden;
+}
+
+.subHeader h1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: geneva;
+}
+
+.article1{
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    overflow: hidden;
+}
+
+.left{
+    width: 45%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    margin-left: 90px;
+}
+
+.leftImg{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.leftImg img{
+    width: 85%;
+    height: 80%;
+}
+
+.pics1{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.pics1 img{
+    width: 30%;
+    border-radius: 70%;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    float: left;
+}
+
+.left h4{
+    width: 70%;
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 40px;
+    float: left;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.left .text{
+    width: 60%;
+    font-family: arial;
+    font-size: 14px;
+    color: grey;
+    margin-top: -10px;
+    margin-left: 15px;
+    float: left;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.left p{
+    width: 100%;
+    height: auto;
+    color: grey;
+    padding-top: 40px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+.right{
+    width: 45%;
+    height: auto;
+    float: right;
+    overflow: hidden; 
+}
+
+.rightImg{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.rightImg Img{
+   width: 85%;
+   height: 80%;
+}
+
+.pics2{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.pics2 Img{
+    width: 30%;
+    border-radius: 70%;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    float: left;   
+}
+
+.right h4{
+    width: 70%;
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 40px;
+    float: left;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.right .text{
+    width: 60%;
+    font-family: arial;
+    font-size: 14px;
+    color: grey;
+    margin-top: -10px;
+    margin-left: 15px;
+    float: left;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.right p{
+    width: 100%;
+    height: auto;
+    color: grey;
+    padding-top: 40px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+.article2{
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.article2 h1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: geneva;
+}
+
+.pics3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.pics3 Img{
+    width: 12%;
+    height: 50%;
+    margin: 50px;
+    margin-top: 10px;   
+}
+
+.article3{
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.article3 h1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 40px;
+    text-align: center;
+    font-family: geneva;
+}
+
+.pics4{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.pics4 Img{
+    width: 16%;
+    height: 50%;
+    margin-top: 30px;
+}
+
+body .aboutHeader{
+    width: 100%;
+    height: 80px;
+}
+
+.aboutHeader{
+    height: 100vh;
+    background: url("../img/b2.jpg");
+    padding: 15px;
+    overflow: hidden;
+}
+
+.aboutHeader h1{
+    font-family: corbel;
+    color: #d73739;
+    float: left;
+    font-size: 45px;
+    width: 75%;
+    padding: 0px 30px;
+}
+
+.article1{
+    width: 100%;
+    height: auto;
+    padding: 40px 60px;
+    overflow: hidden;
+}
+.leftside{
+    width: 30%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.leftsideImg{
+    width: 100%;
+    height: 100%;   
+}
+
+.leftsideImg img{
+    width: 100%;
+    height: auto;
+}
+
+
+.leftside h2{
+    width: 50%;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    overflow: hidden;
+}
+.leftside p{
+    width: 100%;
+    height: auto;
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-size: 17px; 
+}
+
+.leftside button{
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    /* margin-bottom: 10px; */
+    font-family: arial;
+    background: rgba(0, 0, 255, 0.788);
+    color: white;
+    font-size: 17px;
+   
+} 
+
+.center{
+    width: 30%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.centerImg{
+    width: 100%;
+    height: 100%;
+}
+
+.centerImg img{
+    width: 100%;
+    height: auto;
+}
+
+.center h2{
+    width: 50%;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    overflow: hidden;
+}
+.center p{
+    width: 100%;
+    height: auto;
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-size: 17px; 
+}
+
+.center button{
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    font-family: arial;
+    background: rgba(0, 0, 255, 0.788);
+    color: white;
+    font-size: 17px;
+}
+.rightside{
+    width: 30%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.rightsideImg{
+    width: 100%;
+    height: 100%;
+}
+
+.rightsideImg img{
+    width: 100%;
+    height: auto;
+}
+
+.rightside h2{
+    width: 50%;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    overflow: hidden;  
+}
+
+.rightside p{
+    width: 100%;
+    height: auto;
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-size: 17px; 
+}
+
+.rightside button{
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    font-family: arial;
+    background: rgba(0, 0, 255, 0.788);
+    color: white;
+    font-size: 17px;
+}
+.article2{
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.full{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.full1{
+    width: 65%;
+    float: left;
+}
+
+.full1 h2{
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 50px;
+   
+}
+
+.full1 p{
+    color: grey;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-size: 17px;
+}
+.fullImg{
+    width: 35%;
+    height: auto;
+    float: right;
+   
+}
+
+.fullImg img{
+    width: 100%;
+    height: auto;
+    padding-right: 50px;
+}
+
+.article3{
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.article3 h1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: geneva;
+}
+
+.last{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 10px;
+    padding-left: 40px;
+}
+.first li{
+   width: 30%;
+   height: auto;
+   color: grey;
+   margin-left: 40px;
+   font-family: arial;
+   font-size: 16px;
+   list-style: square;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   float: left;
+}
+
+.second li{
+    width: 30%;
+    height: auto;
+    color: grey;
+    margin-left: 40px;
+    font-family: arial;
+    font-size: 16px;
+    list-style: square;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.third li{
+    width: 30%;
+    height: auto;
+    color: grey;
+    margin-left: 40px;
+    font-family: arial;
+    font-size: 16px;
+    list-style: square;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.article1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.Images{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.Images img{
+    width: 25%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
+    padding: 2px;
+    
+}
+
+.article1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.leftpart{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.article1 ul li{
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.article1 ul li input{
+    width: 100%;
+    height: 35%;
+    border: none;
+    border-bottom: 1px grey solid;
+    padding: 5px;
+    padding-top: 20px;  
+}
+
+.article1 ul li textarea{
+    width: 100%;
+    height: 180px;
+    border: none;
+    border-bottom: 1px grey solid;
+    padding: 5px;
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-family: arial;
+    background: red;
+    color: white;
+    font-size: 15px;
+    padding: 3px 30px;
+}
+
+.rightpart{
+    width: 50%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+}
+
+.rightpart h2{
+    width: 100%;
+    height: auto;
+    font-family: geneva;
+    font-size: 25px;
+    color: royalblue;
+    padding: 20px;
+    float: right;
+    overflow: hidden;
+}
+
+.rightpart p{
+    width: 100%;
+    color: grey;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    overflow: hidden;
+}
+
+.f1{
+    width: 25%;
+    height: auto;
+    text-align: left;
+    list-style: none;
+    margin-top: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.f1 h3{
+    width: 40%;
+    height: 25%;
+    color: floralwhite;
+    margin-left: 50px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+}
+
+.f1 li{
+    width: 100%;
+    height: auto;
+    color: grey;
+    margin-left: 50px;
+    font-family: arial;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.reach{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+.box1{
+    font-family: geneva;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.box2{
+    background: red;
+    color: white;
+    font-family: geneva;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.pic5{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding-left: 40px;
+    overflow: hidden;
+    float: left;
+}
+  
+.pics5 Img{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 50px;
+    float: left;
+    font-weight: 70%;
+    margin-top: 10px;
+    
+}
+
+.f2{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.f2 p{
+    font-family: corbel;
+    font-size: 20px;
+    color: floralwhite;   
+    text-align: center;
+    margin-bottom: 10px;
+}
